@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Web</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul class="navlist">
+        <li><a href="#" class="home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#certificate">Certificate</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="left">
+      <div class="icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="content">
+        <p class="first">Hi! I AM <span>UDAY MADHWANI</span></p>
+        <h1>WEB DEVELOPER.</h1>
+        <p class="last">I build responsive and interactive websites using modern web technologies.</p>
+        <div class="btn">
+          <a href="#contact"><button>Contact Me</button></a>
+          <a href="#project"><button>View Project</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="right"></div>
+    <div class="design">
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate web developer with experience in creating dynamic and user-friendly websites.
+      My goal is to create websites that are not only visually appealing but also functional and optimized.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5 / CSS3 / JavaScript</li>
+      <li>React.js / Vue.js</li>
+      <li>Node.js / Express</li>
+      <li>MongoDB / MySQL</li>
+      <li>Git / GitHub / CLI</li>
+      <li>Responsive Design & Cross-Browser Compatibility</li>
+    </ul>
+  </section>
+
+  <section id="project">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive portfolio to showcase my work and skills. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>Task Manager App</h3>
+        <p>A full-stack task manager using Node.js and MongoDB for backend and React for frontend.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Here's my resume. You can download the full PDF below.</p>
+
+    <div class="resume-content">
+      <img src="image/Screenshot 2025-07-04 124808.png" alt="Uday Madhwani" class="resume-photo">
+    </div>
+
+    <p>
+      Download my complete resume here:
+    </p>
+    <a href="Updated_Resume_with_Photo.pdf" download="Uday_Madhwani_Resume.pdf"><button>Download Resume</button></a>
+  </section>
+
+  <section id="certificate">
+    <h2>Certificates</h2>
+
+    <div class="certificate-list">
+      <div class="certificate-item">
+        <img src="image/638e76f217cc27e47e7c6d1a7d9afb73c6aedbc3215db0645fd742e3802aec30(1).png" alt="Java DSA Certificate">
+        <p><strong>Java DSA Course</strong><br />Issued by Scaler Topics – 15 Feb 2025</p>
+      </div>
+
+      <div class="certificate-item">
+        <img src="image/Screenshot 2025-07-04 083644.png" alt="Computer Vision 101 Certificate" >
+        <p><strong>Computer Vision 101</strong><br />Issued on Wingspan – 22 June 2025</p>
+      </div>
+      <div class="certificate-item">
+        <img src="image/Screenshot 2025-06-27 103349.png" alt="Data Analytics Job Simulation Certificate" >
+        <p><strong>Data analytics Job Simulation</strong><br />Issued on Forage – 26 June 2025</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required><br />
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="4" required></textarea><br />
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</body>
+</html>
